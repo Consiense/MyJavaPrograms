@@ -1,0 +1,24 @@
+public class test{
+
+     public static void main(String []args){
+         
+     for (int i = 0; i < 15; i+=2) //prints all the integers between 0 and 15
+    {
+      System.out.println(i); //Prints the value of i on the screen
+      
+      }
+      
+    String [] students = {"John", "Doe", "Celestine", "Dylan", "Mary", "Sam"};
+    
+    /* for (int y = 0; y < students.length; y++)
+      {
+        System.out.print(students);
+        } */
+        
+        System.out.println(students[2]);        
+        System.out.println(students[2] + ", you can now enjoy your Holidays.");
+        System.out.println(students[0] + " make sure you see me before you leave for the weekend.");
+
+    
+     }
+}
